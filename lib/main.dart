@@ -1,4 +1,4 @@
-import 'package:bytebank2/screens/transferencia/lista.dart';
+import 'package:bytebank2/screens/dashboard/dasboard.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(BytebankApp());
@@ -15,7 +15,7 @@ class BytebankApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: ListaTransferencias(),
+      home: Dashboard(),
     );
   }
 }
